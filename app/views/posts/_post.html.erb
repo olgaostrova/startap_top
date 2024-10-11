@@ -1,0 +1,51 @@
+<br>
+<br>
+
+<div id="<%= dom_id post %>">
+  <p>
+    <strong>Title:</strong>
+    <%= post.title %>
+  </p>
+
+  <p>
+    <strong>Text:</strong>
+    <%= post.text %>
+  </p>
+
+  <p>
+    <strong>Description:</strong>
+    <%= post.description %>
+  </p>
+
+  <p>
+    <strong>Likes:</strong>
+    <%= post.likes %>
+  </p>
+
+  <p>
+    <strong>Dislikes:</strong>
+    <%= post.dislikes %>
+  </p>
+
+  <p>
+    <strong>Taps:</strong>
+    <%= post.taps %>
+  </p>
+
+  <p>
+    <strong>Tags:</strong>
+    <%= post.tags %>
+  </p>
+
+  <p>
+    <strong>Author name:</strong>
+    <%= post.author_name %>
+  </p>
+
+
+  <div ><%= render post.comments %></div>
+
+</div>
+
+<br>
+<br>

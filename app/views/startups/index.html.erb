@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Startups</h1>
+
+<div id="startups">
+  <% @startups.each do |startup| %>
+    <%= render startup %>
+    <p>
+      <%= link_to "Show this startup", startup %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New startup", new_startup_path %>

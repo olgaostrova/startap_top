@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  chat_number: 1
+  messeges_counter: 1
+  participants_counter: 1
+  User: one
+
+two:
+  chat_number: 1
+  messeges_counter: 1
+  participants_counter: 1
+  User: two

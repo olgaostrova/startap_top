@@ -1,0 +1,48 @@
+<br>
+<br>
+
+<div id="<%= dom_id user %>">
+  <p>
+    <strong>Name:</strong>
+    <%= user.name %>
+  </p>
+
+  <p>
+    <strong>Surname:</strong>
+    <%= user.surname %>
+  </p>
+
+  <p>
+    <strong>Login:</strong>
+    <%= user.login %>
+  </p>
+
+  <p>
+    <strong>Password:</strong>
+    <%= user.password %>
+  </p>
+
+  <p>
+    <strong>Email:</strong>
+    <%= user.email %>
+  </p>
+
+  <p>
+    <strong>Occupation:</strong>
+    <%= user.occupation %>
+  </p>
+
+  <p>
+    <strong>Tags:</strong>
+    <%= user.tags %>
+  </p>
+
+    <div ><%= render user.startups %></div>
+    <div ><%= render user.posts %></div>
+    <div ><%= render user.chats %></div>
+
+</div>
+
+
+<br>
+<br>
